@@ -329,8 +329,8 @@ module.exports = sock = async (sock, m, chatUpdate, store) => {
                 const totalCommands = pluginLoader.getPluginCount();
 
                 const K0MRAID = `
-╔〘 *WA-BASE-BOT* 
-║ 👑 *Owner:* Debraj 
+╔〘 *👑🩷AKARI* 
+║ 👑 *Owner:* Tillamanx93
 ║ 🧩 *Prefix:* [ . ]
 ║ 🖥️ *Host:* ${host}
 ║ 🧠 *Commands:* ${totalCommands}
@@ -385,4 +385,5 @@ require('fs').watchFile(file, () => {
     console.log('\x1b[0;32m' + __filename + ' \x1b[1;32mupdated!\x1b[0m');
     delete require.cache[file];
     require(file);
+
 });
