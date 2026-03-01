@@ -151,7 +151,7 @@ const clientstart = async() => {
                     `> ⚡ Prefix: [ . ]\n` +
                     `> 🚀 Mode: ${sock.public ? 'Public' : 'Self'}\n` +
                     `> 🤖 Version: 1.0.0\n` +
-                    `> 👑 Owner: Debraj\n\n` +
+                    `> 👑 Owner: Tillamanx 93\n\n` +
                     `✅ Bot connected successfully\n` +
                     `📢 Join our channel: https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E`,
                 contextInfo: {
@@ -461,4 +461,5 @@ const originalStderrWrite = process.stderr.write;
 process.stderr.write = function (msg, encoding, fd) {
     if (typeof msg === 'string' && ignoredErrors.some(e => msg.includes(e))) return;
     originalStderrWrite.apply(process.stderr, arguments);
+
 };
