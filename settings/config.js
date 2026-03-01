@@ -5,8 +5,8 @@
 const fs = require('fs')
 
 const config = {
-    owner: "-",
-    botNumber: "-",
+    owner: "AKARI",
+    botNumber: "263714134538",
     setPair: "K0MRAID1",
     thumbUrl: "https://i.imgur.com/IkEv97P.jpeg",
     session: "sessions",
@@ -28,14 +28,14 @@ const config = {
         wait: 'Please wait...'
     },
     settings: {
-        title: "Simple WA Base Bot",
-        packname: 'WA-BASE',
+        title: "AKARI",
+        packname: 'AKARI',
         description: "this script was created by Debraj",
         author: 'https://www.github.com/OfficialKango',
         footer: "饾棈饾柧饾梾饾柧饾梹饾棆饾柡饾梿: @official_kango"
     },
     newsletter: {
-        name: "Simple WA Base Bot",
+        name: "AKARI...",
         id: "0@newsletter"
     },
     api: {
@@ -43,8 +43,8 @@ const config = {
         apikey: "hector"
     },
     sticker: {
-        packname: "Simple WA Base Bot",
-        author: "WA-BASE"
+        packname : "AKARI",
+        author: "ARISE"
     }
 }
 
